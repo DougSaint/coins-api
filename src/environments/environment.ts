@@ -3,7 +3,9 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  API: "https://api.nomics.com/v1/currencies/ticker?key=f0bf800bd2596f9a7823cca75e7c383139bb2ac0&convert=BRL",
+  BASE_URL:'/api'
 };
 
 /*
