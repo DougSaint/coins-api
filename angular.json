@@ -69,7 +69,8 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "api-coins:build:production"
+              "browserTarget": "api-coins:build:production",
+			  "proxyConfig": "src/proxy.conf.json"
             },
             "development": {
               "browserTarget": "api-coins:build:development"
@@ -103,5 +104,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "ee6e061c-5e34-493a-85e8-0f615183a92f"
   }
 }
