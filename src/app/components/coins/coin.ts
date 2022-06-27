@@ -1,7 +1,7 @@
 export class Coin {
+	id!:string
 	name!:string
-	price!	:string
-	icon!:string
-	symbol!:string
-	chg!:string
+	price!:string
+	logo_url!:string
+	price_date!:string
 }

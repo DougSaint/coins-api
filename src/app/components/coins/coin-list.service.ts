@@ -10,7 +10,7 @@ import { Observable } from 'rxjs';
 
 export class CoinService {
 
-	private url = 'https://www.binance.com/api/v3/ticker/price'
+	readonly url = 'https://api.nomics.com/v1/currencies/ticker?key=f0bf800bd2596f9a7823cca75e7c383139bb2ac0&convert=BRL'
 
 
   constructor(private http:HttpClient) { }
